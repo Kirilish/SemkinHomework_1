@@ -8,10 +8,10 @@ if (blockName) {
     if (modifieName) {
       const modifieNameConclusion = prompt("Введите название модификатора");
       console.log(
-        `${blockNameConclusion}${elementNameConclusion}${modifieNameConclusion}`
+        `${blockNameConclusion}__${elementNameConclusion}_${modifieNameConclusion}`
       );
     } else {
-      console.log(`${blockNameConclusion}${elementNameConclusion}`);
+      console.log(`${blockNameConclusion}__${elementNameConclusion}`);
     }
   } else {
     console.log(`${blockNameConclusion}`);
